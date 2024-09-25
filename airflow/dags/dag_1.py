@@ -10,7 +10,7 @@ from confluent_kafka import Producer
 def fetch_weather_data():
     try:
         # Realiza la solicitud a la API de clima
-        api_url = 'https://api.openweathermap.org/data/2.5/weather?lat=4&lon=74&appid=b770451845565dff1a58b185b7694c63'
+        api_url = 'https://api.openweathermap.org/data/2.5/weather?lat=4&lon=74&appid=************'
         response = requests.get(api_url)
         weather_data = response.json()
         return weather_data
