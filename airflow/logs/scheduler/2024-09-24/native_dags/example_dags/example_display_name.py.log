@@ -1,0 +1,15 @@
+[2024-09-24T16:03:41.708+0200] {processor.py:186} INFO - Started process (PID=38500) to work on /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_display_name.py
+[2024-09-24T16:03:41.709+0200] {processor.py:914} INFO - Processing file /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_display_name.py for tasks to queue
+[2024-09-24T16:03:41.712+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:41.712+0200] {dagbag.py:587} INFO - Filling up the DagBag from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_display_name.py
+[2024-09-24T16:03:41.719+0200] {processor.py:925} INFO - DAG(s) 'example_display_name' retrieved from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_display_name.py
+[2024-09-24T16:03:41.860+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:41.859+0200] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_display_name
+[2024-09-24T16:03:41.881+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:41.881+0200] {override.py:1900} INFO - Created Permission View: can read on DAG:example_display_name
+[2024-09-24T16:03:41.899+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:41.898+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_display_name
+[2024-09-24T16:03:41.933+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:41.932+0200] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_display_name
+[2024-09-24T16:03:41.950+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:41.950+0200] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_display_name
+[2024-09-24T16:03:41.968+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:41.968+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_display_name
+[2024-09-24T16:03:41.986+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:41.986+0200] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_display_name
+[2024-09-24T16:03:41.987+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:41.986+0200] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-24T16:03:42.003+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:42.002+0200] {dag.py:3252} INFO - Creating ORM DAG for example_display_name
+[2024-09-24T16:03:42.003+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:42.003+0200] {dag.py:4156} INFO - Setting next_dagrun for example_display_name to None, run_after=None
+[2024-09-24T16:03:42.035+0200] {processor.py:208} INFO - Processing /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_display_name.py took 0.336 seconds

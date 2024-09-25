@@ -1,0 +1,42 @@
+[2024-09-24T16:03:50.421+0200] {processor.py:186} INFO - Started process (PID=38505) to work on /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-09-24T16:03:50.422+0200] {processor.py:914} INFO - Processing file /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py for tasks to queue
+[2024-09-24T16:03:50.423+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.423+0200] {dagbag.py:587} INFO - Filling up the DagBag from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-09-24T16:03:50.439+0200] {processor.py:925} INFO - DAG(s) 'dataset_s3_bucket_consumer', 'dataset_s3_bucket_producer', 'dataset_alias_example_alias_consumer', 'dataset_alias_example_alias_producer' retrieved from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-09-24T16:03:50.527+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.527+0200] {override.py:1900} INFO - Created Permission View: can edit on DAG:dataset_s3_bucket_consumer
+[2024-09-24T16:03:50.544+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.544+0200] {override.py:1900} INFO - Created Permission View: can read on DAG:dataset_s3_bucket_consumer
+[2024-09-24T16:03:50.559+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.559+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG:dataset_s3_bucket_consumer
+[2024-09-24T16:03:50.586+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.586+0200] {override.py:1900} INFO - Created Permission View: can read on DAG Run:dataset_s3_bucket_consumer
+[2024-09-24T16:03:50.601+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.600+0200] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:dataset_s3_bucket_consumer
+[2024-09-24T16:03:50.616+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.615+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:dataset_s3_bucket_consumer
+[2024-09-24T16:03:50.630+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.630+0200] {override.py:1900} INFO - Created Permission View: can create on DAG Run:dataset_s3_bucket_consumer
+[2024-09-24T16:03:50.660+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.659+0200] {override.py:1900} INFO - Created Permission View: can edit on DAG:dataset_s3_bucket_producer
+[2024-09-24T16:03:50.675+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.675+0200] {override.py:1900} INFO - Created Permission View: can read on DAG:dataset_s3_bucket_producer
+[2024-09-24T16:03:50.690+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.690+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG:dataset_s3_bucket_producer
+[2024-09-24T16:03:50.717+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.716+0200] {override.py:1900} INFO - Created Permission View: can read on DAG Run:dataset_s3_bucket_producer
+[2024-09-24T16:03:50.731+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.731+0200] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:dataset_s3_bucket_producer
+[2024-09-24T16:03:50.745+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.745+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:dataset_s3_bucket_producer
+[2024-09-24T16:03:50.760+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.760+0200] {override.py:1900} INFO - Created Permission View: can create on DAG Run:dataset_s3_bucket_producer
+[2024-09-24T16:03:50.791+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.791+0200] {override.py:1900} INFO - Created Permission View: can edit on DAG:dataset_alias_example_alias_consumer
+[2024-09-24T16:03:50.805+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.805+0200] {override.py:1900} INFO - Created Permission View: can read on DAG:dataset_alias_example_alias_consumer
+[2024-09-24T16:03:50.821+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.820+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG:dataset_alias_example_alias_consumer
+[2024-09-24T16:03:50.846+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.845+0200] {override.py:1900} INFO - Created Permission View: can read on DAG Run:dataset_alias_example_alias_consumer
+[2024-09-24T16:03:50.861+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.861+0200] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:dataset_alias_example_alias_consumer
+[2024-09-24T16:03:50.876+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.875+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:dataset_alias_example_alias_consumer
+[2024-09-24T16:03:50.890+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.890+0200] {override.py:1900} INFO - Created Permission View: can create on DAG Run:dataset_alias_example_alias_consumer
+[2024-09-24T16:03:50.924+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.924+0200] {override.py:1900} INFO - Created Permission View: can edit on DAG:dataset_alias_example_alias_producer
+[2024-09-24T16:03:50.939+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.939+0200] {override.py:1900} INFO - Created Permission View: can read on DAG:dataset_alias_example_alias_producer
+[2024-09-24T16:03:50.954+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.954+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG:dataset_alias_example_alias_producer
+[2024-09-24T16:03:50.980+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.979+0200] {override.py:1900} INFO - Created Permission View: can read on DAG Run:dataset_alias_example_alias_producer
+[2024-09-24T16:03:50.995+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:50.994+0200] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:dataset_alias_example_alias_producer
+[2024-09-24T16:03:51.009+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:51.009+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:dataset_alias_example_alias_producer
+[2024-09-24T16:03:51.024+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:51.023+0200] {override.py:1900} INFO - Created Permission View: can create on DAG Run:dataset_alias_example_alias_producer
+[2024-09-24T16:03:51.024+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:51.024+0200] {dag.py:3229} INFO - Sync 4 DAGs
+[2024-09-24T16:03:51.034+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:51.034+0200] {dag.py:3252} INFO - Creating ORM DAG for dataset_s3_bucket_consumer
+[2024-09-24T16:03:51.034+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:51.034+0200] {dag.py:3252} INFO - Creating ORM DAG for dataset_s3_bucket_producer
+[2024-09-24T16:03:51.035+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:51.035+0200] {dag.py:3252} INFO - Creating ORM DAG for dataset_alias_example_alias_producer
+[2024-09-24T16:03:51.035+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:51.035+0200] {dag.py:3252} INFO - Creating ORM DAG for dataset_alias_example_alias_consumer
+[2024-09-24T16:03:51.043+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:51.043+0200] {dag.py:4156} INFO - Setting next_dagrun for dataset_alias_example_alias_consumer to None, run_after=None
+[2024-09-24T16:03:51.044+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:51.044+0200] {dag.py:4156} INFO - Setting next_dagrun for dataset_alias_example_alias_producer to None, run_after=None
+[2024-09-24T16:03:51.044+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:51.044+0200] {dag.py:4156} INFO - Setting next_dagrun for dataset_s3_bucket_consumer to None, run_after=None
+[2024-09-24T16:03:51.045+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:51.045+0200] {dag.py:4156} INFO - Setting next_dagrun for dataset_s3_bucket_producer to None, run_after=None
+[2024-09-24T16:03:51.080+0200] {processor.py:208} INFO - Processing /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_dataset_alias.py took 0.664 seconds

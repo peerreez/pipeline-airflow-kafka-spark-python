@@ -1,0 +1,40 @@
+[2024-09-24T16:27:53.217+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-09-24T16:27:53.225+0200] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mi_dag_api.get_json_from_task1 scheduled__2023-10-06T00:04:00+00:00 [queued]>
+[2024-09-24T16:27:53.230+0200] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mi_dag_api.get_json_from_task1 scheduled__2023-10-06T00:04:00+00:00 [queued]>
+[2024-09-24T16:27:53.230+0200] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-09-24T16:27:53.269+0200] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): get_json_from_task1> on 2023-10-06 00:04:00+00:00
+[2024-09-24T16:27:53.272+0200] {standard_task_runner.py:72} INFO - Started process 49988 to run task
+[2024-09-24T16:27:53.275+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'mi_dag_api', 'get_json_from_task1', 'scheduled__2023-10-06T00:04:00+00:00', '--job-id', '151', '--raw', '--subdir', 'DAGS_FOLDER/dag_1.py', '--cfg-path', '/tmp/tmp8f1soa2l']
+[2024-09-24T16:27:53.276+0200] {standard_task_runner.py:105} INFO - Job 151: Subtask get_json_from_task1
+[2024-09-24T16:27:53.317+0200] {task_command.py:467} INFO - Running <TaskInstance: mi_dag_api.get_json_from_task1 scheduled__2023-10-06T00:04:00+00:00 [running]> on host DESKTOP-EPJQTCS.
+[2024-09-24T16:27:53.389+0200] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='mi_dag_api' AIRFLOW_CTX_TASK_ID='get_json_from_task1' AIRFLOW_CTX_EXECUTION_DATE='2023-10-06T00:04:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-06T00:04:00+00:00'
+[2024-09-24T16:27:53.390+0200] {taskinstance.py:731} INFO - ::endgroup::
+[2024-09-24T16:27:53.406+0200] {logging_mixin.py:190} INFO - {'base': 'stations',
+ 'clouds': {'all': 2},
+ 'cod': 200,
+ 'coord': {'lat': 4, 'lon': 74},
+ 'dt': 1727187950,
+ 'id': 1282027,
+ 'main': {'feels_like': 306.28,
+          'grnd_level': 1010,
+          'humidity': 75,
+          'pressure': 1010,
+          'sea_level': 1010,
+          'temp': 301.92,
+          'temp_max': 301.92,
+          'temp_min': 301.92},
+ 'name': 'Malé',
+ 'sys': {'country': 'MV', 'sunrise': 1727139169, 'sunset': 1727182750},
+ 'timezone': 18000,
+ 'visibility': 10000,
+ 'weather': [{'description': 'clear sky',
+              'icon': '01n',
+              'id': 800,
+              'main': 'Clear'}],
+ 'wind': {'deg': 279, 'gust': 7.6, 'speed': 6.49}}
+[2024-09-24T16:27:53.406+0200] {python.py:240} INFO - Done. Returned value was: None
+[2024-09-24T16:27:53.409+0200] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-09-24T16:27:53.410+0200] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=mi_dag_api, task_id=get_json_from_task1, run_id=scheduled__2023-10-06T00:04:00+00:00, execution_date=20231006T000400, start_date=20240924T142753, end_date=20240924T142753
+[2024-09-24T16:27:53.449+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-09-24T16:27:53.465+0200] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-09-24T16:27:53.476+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

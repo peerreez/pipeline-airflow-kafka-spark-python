@@ -1,0 +1,15 @@
+[2024-09-24T16:03:38.188+0200] {processor.py:186} INFO - Started process (PID=38491) to work on /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-09-24T16:03:38.189+0200] {processor.py:914} INFO - Processing file /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-09-24T16:03:38.192+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:38.191+0200] {dagbag.py:587} INFO - Filling up the DagBag from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-09-24T16:03:38.211+0200] {processor.py:925} INFO - DAG(s) 'example_branch_python_operator_decorator' retrieved from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-09-24T16:03:38.323+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:38.323+0200] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_branch_python_operator_decorator
+[2024-09-24T16:03:38.342+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:38.342+0200] {override.py:1900} INFO - Created Permission View: can read on DAG:example_branch_python_operator_decorator
+[2024-09-24T16:03:38.358+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:38.358+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_branch_python_operator_decorator
+[2024-09-24T16:03:38.388+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:38.388+0200] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_branch_python_operator_decorator
+[2024-09-24T16:03:38.405+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:38.405+0200] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_branch_python_operator_decorator
+[2024-09-24T16:03:38.423+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:38.423+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_branch_python_operator_decorator
+[2024-09-24T16:03:38.441+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:38.440+0200] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_branch_python_operator_decorator
+[2024-09-24T16:03:38.441+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:38.441+0200] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-24T16:03:38.452+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:38.452+0200] {dag.py:3252} INFO - Creating ORM DAG for example_branch_python_operator_decorator
+[2024-09-24T16:03:38.461+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:38.460+0200] {dag.py:4156} INFO - Setting next_dagrun for example_branch_python_operator_decorator to 2024-09-23 00:00:00+00:00, run_after=2024-09-24 00:00:00+00:00
+[2024-09-24T16:03:38.491+0200] {processor.py:208} INFO - Processing /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.309 seconds

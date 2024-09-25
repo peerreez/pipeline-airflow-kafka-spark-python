@@ -1,0 +1,15 @@
+[2024-09-24T16:03:16.580+0200] {processor.py:186} INFO - Started process (PID=38467) to work on /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-09-24T16:03:16.581+0200] {processor.py:914} INFO - Processing file /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-09-24T16:03:16.583+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:16.582+0200] {dagbag.py:587} INFO - Filling up the DagBag from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-09-24T16:03:16.591+0200] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-09-24T16:03:16.687+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:16.686+0200] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2024-09-24T16:03:16.704+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:16.704+0200] {override.py:1900} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2024-09-24T16:03:16.719+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:16.718+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2024-09-24T16:03:16.746+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:16.746+0200] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_sla_dag
+[2024-09-24T16:03:16.761+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:16.760+0200] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_sla_dag
+[2024-09-24T16:03:16.775+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:16.775+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_sla_dag
+[2024-09-24T16:03:16.790+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:16.790+0200] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_sla_dag
+[2024-09-24T16:03:16.791+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:16.791+0200] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-24T16:03:16.800+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:16.800+0200] {dag.py:3252} INFO - Creating ORM DAG for example_sla_dag
+[2024-09-24T16:03:16.811+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:16.811+0200] {dag.py:4156} INFO - Setting next_dagrun for example_sla_dag to 2024-09-24 14:00:00+00:00, run_after=2024-09-24 14:02:00+00:00
+[2024-09-24T16:03:16.834+0200] {processor.py:208} INFO - Processing /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.262 seconds

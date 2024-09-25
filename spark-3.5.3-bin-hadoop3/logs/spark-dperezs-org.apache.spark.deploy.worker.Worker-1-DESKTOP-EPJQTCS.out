@@ -1,0 +1,29 @@
+Spark Command: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -cp /home/dperezs/data/pipeline/spark-3.5.3-bin-hadoop3/conf/:/home/dperezs/data/pipeline/spark-3.5.3-bin-hadoop3/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://DESKTOP-EPJQTCS.:7077
+========================================
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+24/09/24 13:54:52 INFO Worker: Started daemon with process name: 15807@DESKTOP-EPJQTCS
+24/09/24 13:54:52 INFO SignalUtils: Registering signal handler for TERM
+24/09/24 13:54:52 INFO SignalUtils: Registering signal handler for HUP
+24/09/24 13:54:52 INFO SignalUtils: Registering signal handler for INT
+24/09/24 13:54:52 WARN Utils: Your hostname, DESKTOP-EPJQTCS resolves to a loopback address: 127.0.1.1; using 10.255.255.254 instead (on interface lo)
+24/09/24 13:54:52 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+24/09/24 13:55:02 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+24/09/24 13:55:02 INFO SecurityManager: Changing view acls to: dperezs
+24/09/24 13:55:02 INFO SecurityManager: Changing modify acls to: dperezs
+24/09/24 13:55:02 INFO SecurityManager: Changing view acls groups to: 
+24/09/24 13:55:02 INFO SecurityManager: Changing modify acls groups to: 
+24/09/24 13:55:02 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: dperezs; groups with view permissions: EMPTY; users with modify permissions: dperezs; groups with modify permissions: EMPTY
+24/09/24 13:55:03 INFO Utils: Successfully started service 'sparkWorker' on port 42003.
+24/09/24 13:55:03 INFO Worker: Worker decommissioning not enabled.
+24/09/24 13:55:03 INFO Worker: Starting Spark worker 10.255.255.254:42003 with 12 cores, 6.7 GiB RAM
+24/09/24 13:55:03 INFO Worker: Running Spark version 3.5.3
+24/09/24 13:55:03 INFO Worker: Spark home: /home/dperezs/data/pipeline/spark-3.5.3-bin-hadoop3
+24/09/24 13:55:03 INFO ResourceUtils: ==============================================================
+24/09/24 13:55:03 INFO ResourceUtils: No custom resources configured for spark.worker.
+24/09/24 13:55:03 INFO ResourceUtils: ==============================================================
+24/09/24 13:55:03 INFO JettyUtils: Start Jetty 0.0.0.0:8081 for WorkerUI
+24/09/24 13:55:03 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+24/09/24 13:55:03 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://10.255.255.254:8081
+24/09/24 13:55:03 INFO Worker: Connecting to master DESKTOP-EPJQTCS.:7077...
+24/09/24 13:55:03 INFO TransportClientFactory: Successfully created connection to DESKTOP-EPJQTCS./127.0.1.1:7077 after 31 ms (0 ms spent in bootstraps)
+24/09/24 13:55:03 INFO Worker: Successfully registered with master spark://DESKTOP-EPJQTCS.:7077

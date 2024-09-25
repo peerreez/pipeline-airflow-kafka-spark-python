@@ -1,0 +1,22 @@
+[2024-09-24T16:03:03.199+0200] {processor.py:186} INFO - Started process (PID=38353) to work on /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-09-24T16:03:03.200+0200] {processor.py:914} INFO - Processing file /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-09-24T16:03:03.202+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:03.202+0200] {dagbag.py:587} INFO - Filling up the DagBag from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-09-24T16:03:03.217+0200] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-09-24T16:03:03.326+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:03.325+0200] {override.py:1900} INFO - Created Permission View: can edit on DAG:tutorial_taskflow_api_virtualenv
+[2024-09-24T16:03:03.344+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:03.343+0200] {override.py:1900} INFO - Created Permission View: can read on DAG:tutorial_taskflow_api_virtualenv
+[2024-09-24T16:03:03.360+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:03.360+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG:tutorial_taskflow_api_virtualenv
+[2024-09-24T16:03:03.389+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:03.388+0200] {override.py:1900} INFO - Created Permission View: can read on DAG Run:tutorial_taskflow_api_virtualenv
+[2024-09-24T16:03:03.404+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:03.404+0200] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:tutorial_taskflow_api_virtualenv
+[2024-09-24T16:03:03.419+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:03.418+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:tutorial_taskflow_api_virtualenv
+[2024-09-24T16:03:03.434+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:03.433+0200] {override.py:1900} INFO - Created Permission View: can create on DAG Run:tutorial_taskflow_api_virtualenv
+[2024-09-24T16:03:03.434+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:03.434+0200] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-24T16:03:03.443+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:03.443+0200] {dag.py:3252} INFO - Creating ORM DAG for tutorial_taskflow_api_virtualenv
+[2024-09-24T16:03:03.444+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:03.444+0200] {dag.py:4156} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-09-24T16:03:03.470+0200] {processor.py:208} INFO - Processing /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.277 seconds
+[2024-09-24T16:04:12.176+0200] {processor.py:186} INFO - Started process (PID=38597) to work on /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-09-24T16:04:12.177+0200] {processor.py:914} INFO - Processing file /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
+[2024-09-24T16:04:12.179+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:04:12.179+0200] {dagbag.py:587} INFO - Filling up the DagBag from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-09-24T16:04:12.189+0200] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api_virtualenv' retrieved from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
+[2024-09-24T16:04:12.202+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:04:12.202+0200] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-24T16:04:12.213+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:04:12.212+0200] {dag.py:4156} INFO - Setting next_dagrun for tutorial_taskflow_api_virtualenv to None, run_after=None
+[2024-09-24T16:04:12.237+0200] {processor.py:208} INFO - Processing /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.066 seconds

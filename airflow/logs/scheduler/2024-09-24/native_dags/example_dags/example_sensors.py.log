@@ -1,0 +1,22 @@
+[2024-09-24T16:03:07.201+0200] {processor.py:186} INFO - Started process (PID=38392) to work on /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-24T16:03:07.202+0200] {processor.py:914} INFO - Processing file /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-24T16:03:07.203+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:07.203+0200] {dagbag.py:587} INFO - Filling up the DagBag from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-24T16:03:07.216+0200] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-24T16:03:07.329+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:07.329+0200] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-09-24T16:03:07.348+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:07.347+0200] {override.py:1900} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-09-24T16:03:07.363+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:07.363+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-09-24T16:03:07.391+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:07.391+0200] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2024-09-24T16:03:07.406+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:07.406+0200] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2024-09-24T16:03:07.421+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:07.421+0200] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2024-09-24T16:03:07.436+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:07.436+0200] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2024-09-24T16:03:07.436+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:07.436+0200] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-24T16:03:07.445+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:07.445+0200] {dag.py:3252} INFO - Creating ORM DAG for example_sensors
+[2024-09-24T16:03:07.446+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:07.446+0200] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-24T16:03:07.474+0200] {processor.py:208} INFO - Processing /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 0.278 seconds
+[2024-09-24T16:04:16.038+0200] {processor.py:186} INFO - Started process (PID=38602) to work on /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-24T16:04:16.039+0200] {processor.py:914} INFO - Processing file /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-09-24T16:04:16.041+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:04:16.040+0200] {dagbag.py:587} INFO - Filling up the DagBag from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-24T16:04:16.050+0200] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2024-09-24T16:04:16.068+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:04:16.068+0200] {dag.py:3229} INFO - Sync 1 DAGs
+[2024-09-24T16:04:16.078+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:04:16.078+0200] {dag.py:4156} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-09-24T16:04:16.103+0200] {processor.py:208} INFO - Processing /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 0.070 seconds

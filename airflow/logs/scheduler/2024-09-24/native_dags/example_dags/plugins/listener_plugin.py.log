@@ -1,0 +1,5 @@
+[2024-09-24T16:03:27.867+0200] {processor.py:186} INFO - Started process (PID=38484) to work on /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-09-24T16:03:27.868+0200] {processor.py:914} INFO - Processing file /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-09-24T16:03:27.870+0200] {logging_mixin.py:190} INFO - [2024-09-24T16:03:27.870+0200] {dagbag.py:587} INFO - Filling up the DagBag from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-09-24T16:03:27.873+0200] {processor.py:927} WARNING - No viable dags retrieved from /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-09-24T16:03:27.887+0200] {processor.py:208} INFO - Processing /home/dperezs/data/pipeline/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.026 seconds
